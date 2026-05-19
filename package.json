@@ -1,0 +1,26 @@
+{
+  "name": "fullstack-shop",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "shop",
+    "ecommerce",
+    "fullstack",
+    "nodejs"
+  ],
+  "author": "Faculty of Computers and Information",
+  "license": "MIT",
+  "description": "Full-stack e-commerce shop (Express + static frontend, in-memory data)",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "sqlite3": "^6.0.1"
+  }
+}
